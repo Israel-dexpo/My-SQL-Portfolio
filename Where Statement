@@ -1,0 +1,9 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+
+
+  Select *
+  From Tutorial.dbo.EmployeesData
+  Where Salary > 21000
+  Order by Ename DESC
+  
+  
