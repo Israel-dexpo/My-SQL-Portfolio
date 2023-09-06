@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [ID]
+      ,[Ename]
+      ,[Salary]
+  FROM [Tutorial].[dbo].[EmployeesData]
+
+  Insert Into EmployeesData Values
+  (1001, 'Adekola Oyeniran', 24000),
+  (1002, 'Adele Fletcher', 24500),
+  (1003, 'Petra Sceptre', 3100)
