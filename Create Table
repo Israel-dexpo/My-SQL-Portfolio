@@ -1,0 +1,5 @@
+Create Table EmployeesData (
+ID int,
+Ename varchar(100),
+Salary int
+)
